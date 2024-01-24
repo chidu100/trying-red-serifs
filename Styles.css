@@ -1,0 +1,67 @@
+body{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+}
+
+h2, .h1 {
+    text-decoration: underline;
+}
+/* Apply a red color to the serifs of the heading */
+.red-serif-text {
+    font-family: 'Times New Roman', serif; /* Choose a serif font */
+    color: black; /* Set the main text color */
+  }
+  
+  .red-serif-text::first-letter {
+    color: red; /* Apply red color to the first letter (serif) */
+  }
+
+  ol {
+  background: #131010;
+  }
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #1beb1b;
+  color: rgb(240, 230, 230);
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+
+.customers {
+    font-family: 'Brush Script MT', cursive;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){
+    background-color: #f2f2f2;
+   }
+  
+  .customers tr:hover {
+    background-color: #ddd;
+   }
+  
+  .customers th {
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
